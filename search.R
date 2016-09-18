@@ -11,7 +11,7 @@ N.docs <- length(doc.list)
 names(doc.list) <- paste0("doc", c(1:N.docs))
 
 #Enter the query
-query <- "R introduction"
+query <- "Page Rank"
 
 #Making VectorSource
 my.docs <- VectorSource(c(doc.list, query))
